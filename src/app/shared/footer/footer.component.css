@@ -1,0 +1,19 @@
+footer {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 1em;
+    grid-column: 1 / 4;
+    font-size: 50px;
+    color: aliceblue;
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vw;;
+}
+.wrapper p {
+  font-size: 20px;
+  align-self: baseline;
+} 

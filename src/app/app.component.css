@@ -1,0 +1,32 @@
+.footer {
+    grid-area: footer;
+}
+
+.banner {
+    grid-area: banner;
+}
+
+.header {
+    grid-area: header;
+}
+
+.carousel {
+    grid-area: carousel;
+}
+
+.testimonial {
+    grid-area: testimonial;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+
+    grid-template-areas:
+           "header"
+            "banner"
+            "carousel"
+            "testimonial"
+            "footer";
+}
